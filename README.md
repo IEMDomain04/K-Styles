@@ -1,0 +1,1 @@
+This is a basic e-commerce website featuring ITZY and its Clothes.
