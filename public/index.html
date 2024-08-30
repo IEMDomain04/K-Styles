@@ -25,14 +25,36 @@
             position: relative;
             z-index: 2;
         }
+        .navbar {
+            position: fixed; /* Ensures the navbar stays at the top when scrolling */
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            background-color: rgba(27, 10, 56, 0.5); /* Optional background for better visibility */
+            z-index: 3; /* Keeps the navbar above other content */
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 50px;
+            font-size: 1.5rem;
+        }
     </style>
 </head>
 <body class="bg-cover bg-center bg-fixed flex items-center justify-center h-screen text-center 
 relative bg-violet-overlay" style="background-image: url('assets/itzy-bg.gif');">
 
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="#about">About</a>
+        <a href="#blog">Blog</a>
+    </nav>
+
     <div class="content">
-        <!-- Navigation Bar -->
-     
         <!-- Icon and Store Title -->
         <div>
             <img src="" alt="">
@@ -50,8 +72,9 @@ relative bg-violet-overlay" style="background-image: url('assets/itzy-bg.gif');"
             </h2>
         </div>
         
-        <!-- Profile and Shop -->
+        <!-- Profile and Shop Icons -->
         <!-- Buttons -->
+         <button>Shop Now</button>
     </div>
 
 </body>
