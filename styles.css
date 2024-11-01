@@ -1,9 +1,65 @@
 * {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 body {
-    background: url("assets/itzy-bg.gif");
+    background: rgba(47, 38, 73, 1) url("assets/itzy-bg.gif");
+    background-blend-mode: overlay;
     background-size: cover;
+    color: white;
 }
+
+/* Navigation Bar CSS */
+#navbar {
+    display: flex;
+    margin-top: 50px;
+    font-size: 25px;
+    justify-content: center;
+}
+
+#nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 50px;
+}
+
+/* Header CSS */
+#header {
+    margin-top: 150px;
+}
+
+.header-brand {
+    display: flex;
+    margin: 0 auto;
+}
+
+.header-brand2 {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#icons {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    margin: 0 20px;
+}
+
+#header-btn {
+    display: flex;
+    margin: 0 auto;
+    padding: 12px 30px;
+    border-radius: 8px;
+}
+
+
+
