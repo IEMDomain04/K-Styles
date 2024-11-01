@@ -11,6 +11,11 @@ body {
     color: white;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 /* Navigation Bar CSS */
 #navbar {
     display: flex;
@@ -26,6 +31,14 @@ body {
 
 .nav-item {
     margin: 0 50px;
+}
+
+.nav-item:hover {
+    color: wheat;
+}
+
+.nav-item:active {
+    color: orange;
 }
 
 /* Header CSS */
@@ -52,6 +65,11 @@ body {
 
 .icon {
     margin: 0 20px;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    transform: scale(1.2);
 }
 
 #header-btn {
@@ -59,6 +77,13 @@ body {
     margin: 0 auto;
     padding: 12px 30px;
     border-radius: 8px;
+    transition: 1s;
+}
+
+#header-btn:hover {
+    transform: scale(1.2);
+    color: white;
+    background-color: rgba(47, 38, 73, 1);
 }
 
 
