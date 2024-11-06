@@ -1,0 +1,94 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(47, 38, 73, 1) url("assets/itzy-bg.gif");
+    background-blend-mode: overlay;
+    background-size: cover;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Navigation Bar CSS */
+#navbar {
+    display: flex;
+    margin-top: 50px;
+    font-size: 25px;
+    justify-content: center;
+}
+
+#nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 50px;
+    padding: 10px 12px; /* Add padding initially */
+    border-radius: 10px; /* Add border-radius initially */
+    transition: 0.3s; /* Smooth transition for background */
+}
+
+.nav-item:hover {
+    background: rgba(248, 224, 179, 0.2); /* Only change background color on hover */
+}
+
+.nav-item:active {
+    color: orange;
+}
+
+
+/* Header CSS */
+#header {
+    margin-top: 150px;
+}
+
+.header-brand {
+    display: flex;
+    margin: 0 auto;
+}
+
+.header-brand2 {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#icons {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    margin: 0 20px;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+#header-btn {
+    display: flex;
+    margin: 0 auto;
+    padding: 12px 30px;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+#header-btn:hover {
+    transform: scale(1.2);
+    color: white;
+    background-color: rgba(47, 38, 73, 1);
+}
+
+
+
