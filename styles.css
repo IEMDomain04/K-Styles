@@ -31,15 +31,19 @@ a {
 
 .nav-item {
     margin: 0 50px;
+    padding: 10px 12px; /* Add padding initially */
+    border-radius: 10px; /* Add border-radius initially */
+    transition: 0.3s; /* Smooth transition for background */
 }
 
 .nav-item:hover {
-    color: wheat;
+    background: rgba(248, 224, 179, 0.2); /* Only change background color on hover */
 }
 
 .nav-item:active {
     color: orange;
 }
+
 
 /* Header CSS */
 #header {
