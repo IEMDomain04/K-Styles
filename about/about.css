@@ -18,9 +18,10 @@ a {
 
 /* Navigation Bar CSS */
 #navbar {
+    font-weight: bold;
     display: flex;
     margin-top: 50px;
-    font-size: 25px;
+    font-size: 15px;
     justify-content: center;
 }
 
@@ -29,9 +30,16 @@ a {
     display: flex;
 }
 
+
+
+.icon-link2 {
+    margin: 0 30px;
+    width: 20%;
+}
+
 .nav-item {
-    margin: 0 50px;
-    padding: 10px 12px; /* Add padding initially */
+    margin: 0 30px;
+    padding: 10px 5px; /* Add padding initially */
     border-radius: 10px; /* Add border-radius initially */
     transition: 0.3s; /* Smooth transition for background */
 }
